@@ -13,9 +13,9 @@
         <p>Ingresar el gasto de cada persona</p>
     </header>
 
-    <main>
-        <form action="">
-            <div class="row">
+    <main class="mt-1 text-center container">
+        <form action="" >
+            <div class="row d-flex justify-content-center">
                 <div class="m-1 col-auto">
                     <label for="nombre" class="form-label">Ingresar el nombre:</label>
                     <input type="text" id="nombre" placeholder="Nombre..." class="form-control">
@@ -25,12 +25,12 @@
                     <input type="number" id="gasto" placeholder="Gastó..." class="form-control">
                 </div>
                 <div class="m-1 col-auto">
-                    <button type="button" class="btn btn-success" onclick="calcular()">Calcular</button>
+                    <button type="button" class="btn btn-success m-auto" onclick="calcular()">Calcular</button>
                 </div>
             </div>
         </form>
 
-        <ul id="listOfPeople" class="list-group"></ul>
+        <ul id="listOfPeople" class="list-group my-3"></ul>
 
         <div id="totalDiv" type="text">
             Total: $0. A cada uno le toca pagar: $0.00
